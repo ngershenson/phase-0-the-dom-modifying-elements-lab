@@ -6,5 +6,4 @@ const newHeader = document.createElement("h1");
 newHeader.id = "victory";
 newHeader.innerHTML = "Noah is the champion";
 
-document.querySelector("main").innerHTML = newHeader;
-
+document.body.append(newHeader);
